@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Conf Ticket</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background: radial-gradient(circle, #0f0c29, #302b63, #24243e);
+            color: white;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            padding: 40px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+        }
+        .highlight {
+            color: #ff6b6b;
+            font-weight: bold;
+        }
+        .email {
+            color: #ff6b6b;
+        }
+        .ticket {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 20px;
+            backdrop-filter: blur(10px);
+            position: relative;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 500px;
+            margin: auto;
+            padding: 20px;
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            clip-path: path("M 0 0 H 90% Q 100% 0, 100% 10% V 90% Q 100% 100%, 90% 100% H 0 V 50% Q 10% 50%, 10% 40% V 10% Q 10% 0%, 0% 0%");
+        }
+        .profile {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .profile img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+        .ticket-cutout {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 10px;
+            border-radius: 5px;
+            text-align: right;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2><img src="/assets/images/logo-mark.svg" alt="Coding Conf" width="30"> Coding Conf</h2>
+        <h1>Congrats, <span class="highlight">Jonatan Kristof</span>!</h1>
+        <p>Your ticket is ready.</p>
+        <p>We've emailed your ticket to <span class="email">jonatan@email.com</span> and will send updates leading up to the event.</p>
+        
+        <div class="ticket">
+            <div class="ticket-content">
+                <h3><img src="/assets/images/logo-mark.svg" alt="Coding Conf" width="20"> Coding Conf</h3>
+                <p>Jan 31, 2025 / Austin, TX</p>
+                <div class="profile">
+                    <img src="/assets/images/image-avatar.jpg" alt="Jonatan Kristof">
+                    <div>
+                        <strong>Jonatan Kristof</strong>
+                        <p><img src="/assets/images/icon-github.svg" width="15"> @jonatankristof0101</p>
+                    </div>
+                </div>
+            </div>
+            <div class="ticket-cutout">#40609</div>
+        </div>
+    </div>
+    <script>
+        console.log("Ticket Loaded Successfully");
+    </script>
+</body>
+</html>
